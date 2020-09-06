@@ -7,6 +7,7 @@ def using_unshift (array, string)
 end
 
 def using_pop (array)
-  array.pop
+  last_element = array.pop
+  return last_element
 end
 
